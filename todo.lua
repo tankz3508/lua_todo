@@ -5,7 +5,7 @@ function task_add(t, v)
     print("Added Task: ", v);
 end
 
-function tasm_rem(t, v)
+function task_rem(t, v)
     for i, j in pairs(t) do
       if j == v then
           table.remove(t, i);
